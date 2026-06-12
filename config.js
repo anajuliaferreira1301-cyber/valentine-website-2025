@@ -49,9 +49,9 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW ELE GOSTAAA",  // Shows when they go past 5000%
-        high: "UIIIII ",              // Shows when they go past 1000%
-        normal: "Uiii"                           // Shows when they go past 100%
+        extreme: "UIIII ELE GOSTAAA 🔥🔥🔥",  // Shows when they go past 5000%
+        high: " 🔥Tá esquentando... ",              // Shows when they go past 1000%
+        normal: "😏 Uiiii..."                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
