@@ -9,7 +9,7 @@ const CONFIG = {
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Entre todos os caminhos que a vida poderia ter me dado, o meu favorito foi o que me levou até você ",
+    pageTitle: "Amore mio ",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -25,10 +25,10 @@ const CONFIG = {
             text: "Você sabia que é a minha pessoa favorita?",                                    // First interaction
             yesBtn: "Sim",                                             // Text for "Sim" button
             noBtn: "Não",                                               // Text for "Não" button
-            secretAnswer: "I love you!"           // Secret hover message
+            secretAnswer: "ÓBVIO!"           // Secret hover message
         },
         second: {
-            text: "Você concorda que somos muito mais legais juntos?",                          // For the love meter
+            text: "Você concorda que somos muito mais legais juntos?",                          // For the yes buttom
            yesBtn: "Sim",                                             // Text for "Sim" button
             noBtn: "Óbvio",                                               // Text for "Óbvio" button
             nextBtn: "Next ❤️"                                         // Text for the next button
@@ -49,15 +49,15 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "WOOOOW ELE GOSTAAA",  // Shows when they go past 5000%
+        high: "UIIIII ",              // Shows when they go past 1000%
+        normal: "Uiii"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Resposta registrada com sucesso. Você acaba de confirmar sua presença em um jantar romântico às 20h. Ao prosseguir, você concorda com:",
-        message: "✅ Receber carinho, ✅ Ganhar beijos; ✅ Passar uma noite incrível comigo. Obrigado pela colaboração. 😌❤️",
+        message: "✅ Receber carinho, ✅ Ganhar beijos; ✅ Passar uma noite incrível comigo. Obrigado pela colaboração.",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
