@@ -9,7 +9,7 @@ const CONFIG = {
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Entre todos os caminhos que a vida poderia ter me dado, o meu favorito foi o que me levou até você ",
+    pageTitle: "Meu amor",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -22,7 +22,7 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Você sabia que é a minha pessoa favorita?",                                    // First interaction
+            text: "Entre todos os caminhos que a vida poderia ter me dado, o meu favorito foi o que me levou até você. Você sabia que é a minha pessoa favorita?",                                    // First interaction
             yesBtn: "Sim",                                             // Text for "Sim" button
             noBtn: "Não",                                               // Text for "Não" button
             secretAnswer: "I love you!"           // Secret hover message
@@ -46,12 +46,6 @@ const CONFIG = {
         }
     },
 
-    // Love meter messages
-    // They show up depending on how far they slide the meter
-    loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
