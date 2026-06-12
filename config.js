@@ -5,11 +5,11 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Matheus Lupatini",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Entre todos os caminhos que a vida poderia ter me dado, o meu favorito foi o que me levou até você ",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -22,20 +22,27 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "Você sabia que é a minha pessoa favorita?",                                    // First interaction
+            yesBtn: "Sim",                                             // Text for "Sim" button
+            noBtn: "Não",                                               // Text for "Não" button
+            secretAnswer: "I love you!"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
+            text: "Você concorda que somos muito mais legais juntos?",                          // For the love meter
+           yesBtn: "Sim",                                             // Text for "Sim" button
+            noBtn: "Óbvio",                                               // Text for "Óbvio" button
+            nextBtn: "Next ❤️"                                         // Text for the next button
+},
+             second: {
+            text: "Você aceita me dar seu 🍩?",                          // For the love meter
+            yesBtn: "Óvio meu amor",                                             // Text for "Óvio meu amor" button
+            noBtn: "ÓBVIO MAS EM MAÍSUCLO",                                               // Text for "ÓBVIO MAS EM MAÍSUCLO" button
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "Você aceita jantar comigo às 20h e aproveitar o nosso Dia dos Namorados da melhor forma possível? 🌹", // The big question!
+            yesBtn: "ÓBVIO QUE SIM MEU AMOR MINHA VIDA MEU BOMBOM",                                             // Text for "ÓBVIO QUE SIM MEU AMOR MINHA VIDA MEU BOMBOM" button
+            noBtn: "Sim, meu amor!"                                                 // Text for "Sim, meu amor!" button
         }
     },
 
@@ -49,8 +56,8 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
+        title: "Resposta registrada com sucesso. Você acaba de confirmar sua presença em um jantar romântico às 20h. Ao prosseguir, você concorda com:",
+        message: "✅ Receber carinho, ✅ Ganhar beijos; ✅ Passar uma noite incrível comigo. Obrigado pela colaboração. 😌❤️",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
@@ -78,7 +85,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/ddwxjqb53/video/upload/v1781297492/Sorriso_Resplandecente_-_Dragon_Ball_Mari_e_Gu_Cover_-_Mari_e_Gu_M%C3%BAsica_youtube_sfkpdg.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
